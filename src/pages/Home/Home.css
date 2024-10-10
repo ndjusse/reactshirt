@@ -1,0 +1,59 @@
+.carousel-item1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.40)),  
+    url(../../../public/assets/images/home/img1.jpg);
+    
+}
+
+.carousel-item2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.30)),  
+    url(../../../public/assets/images/home/img2.jpg) ;
+}
+
+.carousel-item3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.50)),  
+     url(../../../public/assets/images/home/img3.jpg);
+     
+}
+.carousel-item4 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.50)),  
+     url(../../../public/assets/images/home/img4.jpg);
+     
+}
+
+.carousel-item1,
+.carousel-item2,
+.carousel-item3,
+.carousel-item4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-color: rgb(13, 78, 78);  
+    height: 60vh; 
+    max-height: 500px;
+
+    
+}
+
+/* @media screen and (max-width: 992px) {
+    .carousel-item1 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.40)),  
+        url(../../../public/assets/images/home/img1.jpg);
+        
+    }
+    
+    .carousel-item2 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.30)),  
+        url(../../../public/assets/images/home/img2.jpg);
+    }
+    
+    .carousel-item3 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.50)),  
+         url(../../../public/assets/images/home/img3.jpg);
+         
+    }
+    .carousel-item4 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.50)),  
+         url(../../../public/assets/images/home/img4.jpg);
+         
+    }
+} */

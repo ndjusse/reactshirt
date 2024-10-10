@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route,  Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Polos from "./pages/Polos";
+import Sweats from "./pages/Swreats";
+import Autres from "./pages/Autres";
+import Footer from "./components/Footer";
+import Adultes from "./pages/Autres/PageAutres/Adultes";
+import Enfants from "./pages/Autres/PageAutres/Enfants";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <div>
+      <Navbar/>
+      <Routes>
+        
+        <Route path="/" element={<Home/>} />
+        <Route path="/Polos" element={<Polos/>} />
+        <Route path="/Sweats" element={<Sweats/>} />
+        <Route path="/Autres" element={<Autres />} />
+        <Route path="/Adultes" element={<Adultes />} />
+        <Route path="/Enfants" element={<Enfants />} />
+      </Routes>
+      <Footer />
+      </div>
+
+      );
 }
 
-export default App;
+      export default App;

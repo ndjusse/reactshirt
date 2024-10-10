@@ -1,0 +1,38 @@
+.carousel-container {
+    position: relative; 
+}
+
+.card {
+    width: 100%; /* Assurez-vous que la carte prend toute la largeur disponible */
+    max-width: 220px; /* Limitez la largeur maximale si nécessaire */
+}
+
+.carousel-image {
+    width: 100%; /* L'image prend toute la largeur de la carte */
+    height: auto; /* Gardez la proportion de l'image */
+    object-fit: cover; /* Ajuste l'image pour couvrir le conteneur sans déformation */
+}
+
+.btnSlick {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.btnSlick:first-of-type {
+    left: 10px; /* Positionne le bouton gauche */
+}
+
+.btnSlick:last-of-type {
+    right: 10px; /* Positionne le bouton droit */
+}
+
+/* Transition pour l'effet de zoom au survol */
+.card-img-hover {
+    transition: transform 0.3s ease; /* Transition douce pour le zoom */
+}
+
+.card-img-hover:hover {
+    transform: scale(1.1); /* Agrandit l'image de 10% au survol */
+}
