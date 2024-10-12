@@ -1,6 +1,6 @@
 import React from 'react'
 import PagePolos from './PagePolos'
-
+import groupe from '../../assets/images/products/groupe.jpg'
 
 
 
@@ -13,7 +13,7 @@ const Polos = () => {
         <div>
              <div className="row flex-lg-row-reverse align-items-center g-5 py-5  mx-auto ">
                 <div className="col-10 col-sm-8 col-lg-6">
-                    <img src="/assets/images/products/groupe.jpg" style={{ width: "90%", height:"90%" }}
+                    <img src= {groupe} style={{ width: "90%", height:"90%" }}
                         alt="aboutImg" className='rounded shadow' />
                 </div>
                 <div className="col-lg-6">
