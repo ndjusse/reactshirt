@@ -1,5 +1,5 @@
-import React from 'react'
-import PagePolos from '../Polos/PagePolos'
+import React from 'react';
+import PagePolos from '../Polos/PagePolos';
 import './Home.css';
 
 
@@ -91,4 +91,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;
