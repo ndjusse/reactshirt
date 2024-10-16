@@ -13,8 +13,8 @@ const Swreats = () => {
                 <img src={item.img} class="card-img-top  card-img-hover" alt={item.title} />
                 <div className="card-body text-center">
                     <h5 className="card-title">{item.title}</h5>
-                    <p className="lead">${item.price}</p>
-                    <NavLink to={`/products/${item.id}`} className="btn btn-outline-primary">Buy Now</NavLink>
+                    <p className="lead">{item.price}FCFA</p>
+                    <NavLink to={`/products/{item.id}FCFA`} className="btn btn-outline-primary">Buy Now</NavLink>
                 </div>
             </div>
         );

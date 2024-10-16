@@ -1,4 +1,4 @@
-import { Route,  Routes } from "react-router-dom";
+import { Route,  Routes, useNavigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Polos from "./pages/Polos";
@@ -7,11 +7,17 @@ import Autres from "./pages/Autres";
 import Footer from "./components/Footer";
 import Adultes from "./pages/Autres/PageAutres/Adultes";
 import Enfants from "./pages/Autres/PageAutres/Enfants";
+import { useEffect } from "react";
 
 
 
 
 function App() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate('/');
+  },[]);
   return (
 
     <div>
