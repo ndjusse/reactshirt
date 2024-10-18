@@ -22,7 +22,7 @@ const Enfants = () => {
     }
 
     return (
-        <div>
+        <div className="Enfants" id="Enfants">
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 text-center">

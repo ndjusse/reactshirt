@@ -10,6 +10,12 @@ const Swreats = () => {
     const cardItem = (item) => {
         return (
             <div className="card my-5 py-4" key={item.id} style={{ width: "18rem" }}>
+
+                {item.isNew && (
+                    <span className="badge bg-danger position-absolute" style={{ top: '10px', left: '10px' }}>
+                        NEW
+                    </span>
+                )}
                 <img src={item.img} class="card-img-top  card-img-hover" alt={item.title} />
                 <div className="card-body text-center">
                     <h5 className="card-title">{item.title}</h5>

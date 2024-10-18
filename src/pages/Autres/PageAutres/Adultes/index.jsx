@@ -10,6 +10,12 @@ const Adultes = () => {
     const cardItem = (item) => {
         return (
             <div className="card my-5 py-4" key={item.id} style={{ width: "18rem" }}>
+
+                {item.isNew && (
+                    <span className="badge bg-danger position-absolute" style={{ top: '10px', left: '10px' }}>
+                        NEW
+                    </span>
+                )}
                 <img src={item.img} className="card-img-top" alt={item.title} />
                 <div className="card-body text-center">
                     <h5 className="card-title">{item.title}</h5>
@@ -21,7 +27,7 @@ const Adultes = () => {
     }
 
     return (
-        <div>
+        <div className="Adultes" id="Adultes">
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 text-center">

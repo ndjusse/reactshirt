@@ -22,7 +22,7 @@ const Polos = () => {
                         de fournir des vêtements qui permettent à chacun d'exprimer son style unique. Nous utilisons des 
                         matériaux durables et travaillons avec des artistes locaux pour créer des designs originaux.</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Contact us</button>
+                        <button type="button" className="btn btn-info btn-lg px-4 me-md-2">Contact us</button>
                         <button type="button" className="btn btn-outline-secondary btn-lg px-4">More</button>
                     </div>
                 </div>

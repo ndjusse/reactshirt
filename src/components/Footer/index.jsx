@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
         <img src={logonnn} alt="Logo" width="50" height="50" className="d-inline-block align-text-top" />
         </a>
-        <span className="mb-3 mb-md-0 text-body-secondary ">NDJUSSE N.N</span>
+        <span className="mb-3 mb-md-0 text-body-secondary d-none d-lg-block ">NDJUSSE N.N</span>
       </div>
 
       <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">

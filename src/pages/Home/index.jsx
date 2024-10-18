@@ -52,21 +52,28 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item className='carousel-item4 vh-100 '>
-                    <Carousel.Caption className='h-100'>
-                        <div className="row h-100">
-                            <div className='col-lg-6 d-none d-lg-block'></div>
-                            <div className='col-lg-6 d-flex flex-column align-items-end justify-content-center'>
-                                <h1 className='text-capitalize text-start'>Livraison gratuite dans Yaoundé</h1>
-                                <p className='text-start'>Découvrez notre collection dès maintenant et trouvez le t-shirt qui vous représente le mieux !</p>
+                    <Carousel.Item className='carousel-item4 vh-100 '>
+                        <Carousel.Caption className='h-100'>
+                            <div className="row h-100">
+                                <div className='col-lg-6 d-none d-lg-block'></div>
+                                <div className='col-lg-6 d-flex flex-column align-items-end justify-content-center'>
+                                    <h1 className='text-capitalize text-start d-none d-lg-block' >
+                                        Livraison gratuite dans Yaoundé
 
+                                    </h1>
+                                    <p className='text-start d-none d-lg-block'>
+                                        Découvrez notre collection dès maintenant et trouvez le t-shirt qui vous représente le mieux !
+                                        
+                                    </p>
+
+                                </div>
                             </div>
-                        </div>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-            <PagePolos />
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
             <Swreats />
+            <PagePolos />
+           
 
 
 
@@ -78,7 +85,7 @@ const Home = () => {
                             Chez nous, nous croyons que chaque t-shirt raconte une histoire. Notre mission est de fournir des vêtements qui permettent à chacun d'exprimer son style unique. Nous utilisons des matériaux durables et travaillons avec des artistes locaux pour créer des designs originaux.
                         </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Contact us</button>
+                            <button type="button" className="btn btn-info btn-lg px-4 me-md-2">Contact us</button>
                             {/* <button type="button" className="btn btn-outline-secondary btn-lg px-4">More</button> */}
                         </div>
                     </div>

@@ -25,12 +25,12 @@ const Navbar = () => {
                             <NavLink className={({ isActive }) => "nav-link " + (isActive ? "active" : "")} to="/Sweats">Sweats</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className={({ isActive }) => "nav-link " + (isActive ? "active" : "")} to="/Autres">Autres services</NavLink>
+                            <NavLink className={({ isActive }) => "nav-link " + (isActive ? "active" : "")} to="/Autres">Styles</NavLink>
                         </li>
                     </ul>
                     <form className="d-flex gap-2" role="search">
-                        <button className="btn btn-info" type="submit">Login</button>
-                        <NavLink to="/signup"><button className="btn btn-success" type="submit">Signup</button></NavLink>
+                        <button className="btn btn-info  white" type="submit" style={{color:'white'}}>Login</button>
+                        <NavLink to="/signup"><button className="btnSignup" type="submit">Signup</button></NavLink>
                     </form>
                 </div>
             </div>

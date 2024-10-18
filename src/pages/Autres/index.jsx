@@ -4,6 +4,7 @@ import NavAutres from './NavAutres'
 import './Autres.css';
 import Adultes from './PageAutres/Adultes';
 import Enfants from './PageAutres/Enfants';
+import StyleFemme from './PageAutres/StyleFemme';
 
 const Autres = () => {
     return (
@@ -25,6 +26,7 @@ const Autres = () => {
             <NavAutres />
             <Adultes />
             <Enfants />
+            <StyleFemme/>
         </div>
     )
 }
