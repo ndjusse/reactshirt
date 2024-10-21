@@ -19,22 +19,22 @@ const PagePolos = () => {
             {
                 breakpoint: 1024, // Pour les écrans plus petits que 1024px
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
                 },
             },
             {
                 breakpoint: 768, // Pour les écrans plus petits que 768px
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
                 },
             },
             {
                 breakpoint: 480, // Pour les écrans plus petits que 480px
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 },
             },
         ],
@@ -59,17 +59,14 @@ const PagePolos = () => {
                 </button>
                 <Slider ref={setSliderRef} {...sliderSettings}>
                     {DataPolos.map(item => (
-                        <div key={item.id} className="card mx-2"> {/* Ajout d'un espacement horizontal */}
-
+                        <div key={item.id} className="card mx-2 d-flex flex-column"> {/* Ajout d'un espacement horizontal */}
                             {item.isNew && (
                                 <span className="badge bg-danger position-absolute" style={{ top: '10px', left: '10px' }}>
                                     NEW
                                 </span>
                             )}
-
                             <img src={item.img} className="card-img-hover carousel-image" alt={item.title} />
-
-                            <div className="card-body text-center">
+                            <div className="card-body text-center d-flex flex-column justify-content-between"> {/* Flexbox pour aligner le contenu */}
                                 <h5 className="card-title">{item.title}</h5>
                                 <p className="lead">{item.price} FCFA</p>
                                 <NavLink to={`/products/${item.id}`} className="btn btn-outline-primary">Buy Now</NavLink>

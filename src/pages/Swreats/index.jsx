@@ -1,26 +1,24 @@
-import React from 'react'
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import DataSwreats from './DataSwreats';
-import "../Polos/PagePolos/PagePolos.css"
-
-
+import "../Polos/PagePolos/PagePolos.css";
 
 const Swreats = () => {
-
     const cardItem = (item) => {
         return (
-            <div className="card my-5 py-4" key={item.id} style={{ width: "18rem" }}>
-
-                {item.isNew && (
-                    <span className="badge bg-danger position-absolute" style={{ top: '10px', left: '10px' }}>
-                        NEW
-                    </span>
-                )}
-                <img src={item.img} class="card-img-top  card-img-hover" alt={item.title} />
-                <div className="card-body text-center">
-                    <h5 className="card-title">{item.title}</h5>
-                    <p className="lead">{item.price}FCFA</p>
-                    <NavLink to={`/products/{item.id}FCFA`} className="btn btn-outline-primary">Buy Now</NavLink>
+            <div className="col-6 col-sm-4 col-md-3 my-2" key={item.id}>
+                <div className="card py-4">
+                    {item.isNew && (
+                        <span className="badge bg-danger position-absolute" style={{ top: '10px', left: '10px' }}>
+                            NEW
+                        </span>
+                    )}
+                    <img src={item.img} className="card-img-top card-img-hover" alt={item.title} />
+                    <div className="card-body text-center">
+                        <h5 className="card-title">{item.title}</h5>
+                        <p className="lead">{item.price} FCFA</p>
+                        <NavLink to={`/products/${item.id}`} className="btn btn-outline-primary">Buy Now</NavLink>
+                    </div>
                 </div>
             </div>
         );
@@ -42,7 +40,7 @@ const Swreats = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Swreats
+export default Swreats;
