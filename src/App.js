@@ -6,6 +6,7 @@ import Sweats from "./pages/Swreats";
 import Autres from "./pages/Autres";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
+import ProductDetails from "./pages/Polos/PagePolos/ProductDetails";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Polos" element={<Polos/>} />
         <Route path="/Sweats" element={<Sweats/>} />
         <Route path="/Autres" element={<Autres />} />
+        <Route path="/products/:id" component={ProductDetails} /> 
       </Routes>
       <Footer />
       </div>
