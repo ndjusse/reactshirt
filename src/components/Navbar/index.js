@@ -29,8 +29,14 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <form className="d-flex gap-2" role="search">
-                        <button className="btn btn-info  white" type="submit" style={{color:'white'}}>Login</button>
-                        <NavLink to="/signup"><button className="btnSignup" type="submit">Signup</button></NavLink>
+                        
+                        <NavLink to="/Login">
+                            <button className="btn btn-info text-white" type="button">Se connecter</button>
+                        </NavLink>
+                       
+                        <NavLink to="/Registre">
+                            <button className="btn btn-primary" type="button">S'inscrire</button>
+                        </NavLink>
                     </form>
                 </div>
             </div>

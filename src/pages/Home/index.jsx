@@ -3,7 +3,7 @@ import PagePolos from '../Polos/PagePolos'
 import './Home.css';
 
 
-import Swreats from '../Swreats';
+import Sweats from '../Sweats';
 import { Carousel } from 'react-bootstrap';
 
 
@@ -71,7 +71,7 @@ const Home = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-            <Swreats />
+            <Sweats />
             <PagePolos />
            
 

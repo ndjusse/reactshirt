@@ -1,38 +1,44 @@
-import { Route,  Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Polos from "./pages/Polos";
-import Sweats from "./pages/Swreats";
+import Sweats from "./pages/Sweats";
 import Autres from "./pages/Autres";
 import Footer from "./components/Footer";
-import { useEffect } from "react";
-import ProductDetails from "./pages/Polos/PagePolos/ProductDetails";
+// import { useEffect } from "react";
+
+import Login from "./pages/Login";
+import Register from "./pages/Registre";
+import ProductDetails from "./pages/Sweats/ProductDetails";
+
 
 
 
 
 function App() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    navigate('/');
-  },[]);
+  // useEffect(() => {
+  //   navigate('/');
+  // },[navigate]);// Include navigate in the dependency array
   return (
-
     <div>
-      <Navbar/>
-      <Routes>
-        
-        <Route path="/" element={<Home/>} />
-        <Route path="/Polos" element={<Polos/>} />
-        <Route path="/Sweats" element={<Sweats/>} />
+      <Navbar />
+      <Routes basename="/reactshirt">
+        <Route path="/" element={<Home />} />
+        <Route path="/Polos" element={<Polos />} />
+        <Route path="/Sweats" element={<Sweats />} />
         <Route path="/Autres" element={<Autres />} />
-        <Route path="/products/:id" component={ProductDetails} /> 
+        {/* <Route path="/products/:id" element={<ProductDetails />} /> */}
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Registre" element={<Register />} />
+        <Route path="/products/:id" element={<ProductDetails />} />
+       
       </Routes>
       <Footer />
-      </div>
-
-      );
+    </div>
+  );
 }
 
-      export default App;
+
+export default App;
