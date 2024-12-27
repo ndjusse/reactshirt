@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/reactshirt/static/css/main.f101dfae.css",
+    "main.js": "/reactshirt/static/js/main.1504b1f0.js",
+    "static/media/groupe.jpg": "/reactshirt/static/media/groupe.699d50239ac735fbf8bc.jpg",
+    "static/media/img1.jpg": "/reactshirt/static/media/img1.5addc9c8d9f47ce2a4d2.jpg",
+    "static/media/img.jpg": "/reactshirt/static/media/img.69b3f64b97cdaa384254.jpg",
+    "static/media/img2.jpg": "/reactshirt/static/media/img2.71b8847e04012a79bc72.jpg",
+    "static/media/capuchelourd.jpg": "/reactshirt/static/media/capuchelourd.22b17db5347033b5af15.jpg",
+    "static/media/img5.jpg": "/reactshirt/static/media/img5.8e58732c20d3a4810a18.jpg",
+    "static/media/othe.jpg": "/reactshirt/static/media/othe.1291cf1bbeaa4e4f5ffa.jpg",
+    "static/media/swe.jpg": "/reactshirt/static/media/swe.50265b7326bba89cb69a.jpg",
+    "static/media/sweatA.jpg": "/reactshirt/static/media/sweatA.ac68277f9edf917cc93a.jpg",
+    "static/media/polo2.jpg": "/reactshirt/static/media/polo2.88e66243c6a21c2ebba6.jpg",
+    "static/media/img43.jpg": "/reactshirt/static/media/img43.6349cc31cee72598827b.jpg",
+    "static/media/decontracté.jpg": "/reactshirt/static/media/decontracté.3a0b6516b28b78e28de1.jpg",
+    "static/media/img4.jpg": "/reactshirt/static/media/img4.5b4bf26396e186a30546.jpg",
+    "static/media/img41.jpg": "/reactshirt/static/media/img41.37e1e2d28a41ac1f3f2d.jpg",
+    "static/media/femmee.jpg": "/reactshirt/static/media/femmee.eb6c930eec84f7e8440c.jpg",
+    "static/media/kDil2afaL.jpg": "/reactshirt/static/media/kDil2afaL.8f625bdade9bb1b469d0.jpg",
+    "static/media/logonnn.jpg": "/reactshirt/static/media/logonnn.f2bcdcba57cef40327e2.jpg",
+    "static/media/SweatE.jpg": "/reactshirt/static/media/SweatE.d156e97a9eda2125f33f.jpg",
+    "static/media/Y350.jpg": "/reactshirt/static/media/Y350.81db8ebdf6d00deedbd5.jpg",
+    "static/media/img3.jpg": "/reactshirt/static/media/img3.74dcb853e09800ef21fc.jpg",
+    "static/media/femm.jpg": "/reactshirt/static/media/femm.4897dd6342c503320e21.jpg",
+    "static/media/slick.svg": "/reactshirt/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/reactshirt/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/reactshirt/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/reactshirt/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/reactshirt/index.html",
+    "main.f101dfae.css.map": "/reactshirt/static/css/main.f101dfae.css.map",
+    "main.1504b1f0.js.map": "/reactshirt/static/js/main.1504b1f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f101dfae.css",
+    "static/js/main.1504b1f0.js"
+  ]
+}
