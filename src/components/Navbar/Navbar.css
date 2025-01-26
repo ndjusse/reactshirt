@@ -11,3 +11,21 @@
     color: white;
     
 }
+
+
+
+
+.navbar-collapse {
+    transition: max-height 0.3s ease-in-out;
+}
+
+.navbar-collapse.collapsing {
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: block !important;
+    }
+}

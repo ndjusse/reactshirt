@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import DataSweats from './DataSweats';
 
 const Sweats = () => {
@@ -25,6 +25,7 @@ const Sweats = () => {
                             <div className="card-body text-center">
                                 <h5 className="card-title">{item.title}</h5>
                                 <p className="lead">{item.price} FCFA</p>
+                                <NavLink to={`/products/${item.id}`} className="btn btn-outline-primary">Buy Now</NavLink>
                             </div>
                         </div>
                     </div>
